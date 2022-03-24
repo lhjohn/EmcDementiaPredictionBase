@@ -1,0 +1,319 @@
+2022-03-24 11:14:32	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:14:32	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:14:33	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:14:36	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:14:36	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:14:36	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:14:36	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:14:36	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:14:36	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:14:36	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 2.92secs
+2022-03-24 11:14:36	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:14:36	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:14:36	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:14:40	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:14:40	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:16:18	[Main thread]	INFO	PatientLevelPrediction	createLogSettings	Use timeStamp: TRUE
+2022-03-24 11:16:18	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:16:18	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:16:18	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:16:18	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:16:18	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:16:18	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 2.26secs
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 2.26secs
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:16:20	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:16:20	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:16:20	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:16:23	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:16:23	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:16:23	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:16:23	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:18:39	[Main thread]	INFO	PatientLevelPrediction	createLogSettings	Use timeStamp: TRUE
+2022-03-24 11:18:39	[Main thread]	INFO	PatientLevelPrediction	createLogSettings	Use timeStamp: TRUE
+2022-03-24 11:18:39	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:18:39	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:18:39	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:18:39	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:18:39	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:18:39	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:18:39	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:18:39	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:18:39	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 1.34secs
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 1.34secs
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 1.34secs
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:18:41	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:18:41	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:18:41	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:18:41	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:18:44	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:18:44	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:18:44	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:18:44	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:18:44	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:18:44	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:39:16	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:39:16	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:39:16	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:39:16	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:39:16	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:39:16	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:39:16	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:39:16	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:39:16	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:39:16	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:39:16	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:39:16	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 17secs
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 17secs
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 17secs
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 17secs
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:39:33	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:40:26	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:40:26	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:40:26	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:40:26	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:40:26	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:40:26	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:40:26	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:40:26	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:40:30	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:40:30	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:40:30	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:40:30	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:40:30	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:40:30	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:40:30	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:40:30	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:45:11	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:45:11	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:45:11	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:45:11	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:45:11	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 11:45:11	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:45:11	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:45:11	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:45:11	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:45:11	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 11:45:11	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:45:11	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:45:11	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:45:11	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:45:11	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 6.63secs
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 6.63secs
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 6.63secs
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 6.63secs
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 6.63secs
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:45:17	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 11:46:04	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:46:04	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:46:04	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:46:04	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:46:04	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 11:46:06	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:46:06	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:46:06	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:46:06	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:46:06	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 11:46:10	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:46:10	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:46:10	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:46:10	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:46:10	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 11:46:10	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:46:10	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:46:10	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:46:10	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:46:10	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 11:46:10	[Main thread]	FATAL			object 'n' not found
+2022-03-24 12:11:32	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 12:11:32	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 12:11:43	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 12:11:46	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 12:11:46	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 12:11:46	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 12:11:46	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 12:11:46	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 12:11:46	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 12:11:46	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 3.29secs
+2022-03-24 12:11:46	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 12:11:47	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 12:11:47	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 12:11:51	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 12:11:51	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 12:14:23	[Main thread]	INFO	DatabaseConnector	downloadJdbcDrivers	Consider adding `DATABASECONNECTOR_JAR_FOLDER='~/jdbcDrivers'` to C:/Users/admin_hjohn2/Documents/.Renviron and restarting R.
+2022-03-24 12:14:23	[Main thread]	FATAL	DatabaseConnector	downloadJdbcDrivers	argument "dbms" is missing, with no default
+2022-03-24 12:14:36	[Main thread]	INFO	DatabaseConnector	downloadJdbcDrivers	Consider adding `DATABASECONNECTOR_JAR_FOLDER='~/jdbcDrivers'` to C:/Users/admin_hjohn2/Documents/.Renviron and restarting R.
+2022-03-24 12:14:36	[Main thread]	FATAL	DatabaseConnector	downloadJdbcDrivers	dbms %in% c("all", "postgresql", "redshift", "sql server", "oracle",  .... is not TRUE
+2022-03-24 12:14:44	[Main thread]	INFO	DatabaseConnector	downloadJdbcDrivers	Consider adding `DATABASECONNECTOR_JAR_FOLDER='~/jdbcDrivers'` to C:/Users/admin_hjohn2/Documents/.Renviron and restarting R.
+2022-03-24 12:14:45	[Main thread]	INFO	DatabaseConnector	downloadJdbcDrivers	DatabaseConnector postgresql JDBC driver downloaded to 'C:/Users/admin_hjohn2/Documents/jdbcDrivers'.
+2022-03-24 12:14:46	[Main thread]	INFO	DatabaseConnector	downloadJdbcDrivers	DatabaseConnector redshift JDBC driver downloaded to 'C:/Users/admin_hjohn2/Documents/jdbcDrivers'.
+2022-03-24 12:14:47	[Main thread]	INFO	DatabaseConnector	downloadJdbcDrivers	DatabaseConnector sql server JDBC driver downloaded to 'C:/Users/admin_hjohn2/Documents/jdbcDrivers'.
+2022-03-24 12:14:48	[Main thread]	INFO	DatabaseConnector	downloadJdbcDrivers	DatabaseConnector oracle JDBC driver downloaded to 'C:/Users/admin_hjohn2/Documents/jdbcDrivers'.
+2022-03-24 12:14:51	[Main thread]	INFO	DatabaseConnector	downloadJdbcDrivers	DatabaseConnector spark JDBC driver downloaded to 'C:/Users/admin_hjohn2/Documents/jdbcDrivers'.
+2022-03-24 12:14:55	[Main thread]	INFO	PatientLevelPrediction	createLogSettings	Use timeStamp: TRUE
+2022-03-24 12:14:55	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 12:14:55	[Main thread]	INFO	EmcDementiaPredictionBase	execute	Creating cohorts
+2022-03-24 12:14:55	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 12:14:55	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 12:15:02	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 12:15:02	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_result
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_inclusion_stats
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_summary_stats
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table scratch_hjohn2.EmcDementiaPredictionBaseCohort_censor_stats
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 3.26secs
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 3.26secs
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 12:15:06	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 12:15:06	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 12:15:06	[Main thread]	INFO	CohortGenerator	FUN	1/2- Generating cohort: [HJ] Dementia Prediction - 50-79y - v2
+2022-03-24 12:15:09	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 12:15:09	[Main thread]	ERROR	CohortGenerator	3	An error occurred while generating cohortName = [HJ] Dementia Prediction - 50-79y - v2. Error: [1m[33mError[39m in [38;5;232m`.createErrorReport()`[39m:[22m [33m![39m Error executing SQL: java.sql.SQLException: [Amazon](500310) Invalid operation: function datefromparts(integer, integer, integer) does not exist  Hint: No function matches the given name and argument types. You may need to add explicit type casts.; An error report has been created at  C:/Users/admin_hjohn2/Documents/Git/EmcDementiaPredictionBase/errorReportSql.txt 
+2022-03-24 12:15:09	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 12:15:09	[Main thread]	FATAL	CohortGenerator	3	
+2022-03-24 12:37:31	[Main thread]	FATAL			trying to get slot "dbms" from an object (class "connectionDetails") that is not an S4 object 
+2022-03-24 12:37:31	[Main thread]	FATAL			trying to get slot "dbms" from an object (class "connectionDetails") that is not an S4 object 
+2022-03-24 12:38:06	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 12:38:06	[Main thread]	INFO	DatabaseConnector	connect	Connecting using Redshift driver
+2022-03-24 12:38:25	[Main thread]	FATAL			trying to get slot "dbms" from an object (class "connectionDetails") that is not an S4 object 
+2022-03-24 12:38:25	[Main thread]	FATAL			trying to get slot "dbms" from an object (class "connectionDetails") that is not an S4 object 
+2022-03-24 13:07:07	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 13:07:07	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2022-03-24 13:07:23	[Main thread]	FATAL	CohortGenerator	generateCohortSet	object 'connection' not found
+2022-03-24 13:07:23	[Main thread]	FATAL	CohortGenerator	generateCohortSet	object 'connection' not found
